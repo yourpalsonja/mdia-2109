@@ -1,13 +1,25 @@
-# Welcome to my 2109 repository. 
+# Welcome to my 2109 repository.
 
-This is me testing out a *single* commit! When I `commit changes...` on this file, it will save a snapshot that I can revert to at any point in time.
+This is me testing out a _single_ commit! When I `commit changes...` on this file, it will save a snapshot that I can revert to at any point in time.
 
-## Which dogs are here today? 
-- [x] Billie
-- [x] Teenie
-- [ ] Pikku
+## Which dogs are here today?
+
+-   [x] Billie
+-   [x] Teenie
+-   [ ] Pikku
 
 ## Which classes have I attended this week?
-- [ ] MDIA-2109
-- [ ] MDIA-3109
-- [ ] CREA-7110
+
+-   [ ] MDIA-2109
+-   [ ] MDIA-3109
+-   [ ] CREA-7110
+
+## Here is some cool ASCII art!
+
+This is swans!
+
+```
+        (o_
+  c_  \\\_\
+\\)   <____)
+```
