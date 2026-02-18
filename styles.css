@@ -1,0 +1,43 @@
+.heading-1 {
+    color: tomato;
+}
+
+/* h1 {
+    color: chartreuse;
+} */
+
+/* #heading-one {
+    color: hotpink;
+} */
+
+.header-container {
+    color: goldenrod;
+    border: 5px solid darkred;
+    padding-top: 5px;
+    padding-right: 6px;
+    padding-bottom: 7px;
+    padding-left: 8px;
+}
+
+.post {
+    color: #f00;
+    border: 3px dashed sienna;
+}
+
+.post__title {
+    text-decoration: underline;
+}
+
+.post__text {
+    color: purple;
+}
+
+.post__disclaimer {
+    color: lightslategrey;
+    font-size: 12px;
+    font-style: italic;
+}
+
+.final__disclaimer {
+    color: palegreen;
+}
