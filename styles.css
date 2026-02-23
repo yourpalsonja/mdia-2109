@@ -1,43 +1,74 @@
-.heading-1 {
-    color: tomato;
+/* Any directly targetted elements, and their DEFAULT styles */
+table,
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
 }
 
-/* h1 {
-    color: chartreuse;
-} */
-
-/* #heading-one {
-    color: hotpink;
-} */
-
-.header-container {
-    color: goldenrod;
-    border: 5px solid darkred;
-    padding-top: 5px;
-    padding-right: 6px;
-    padding-bottom: 7px;
-    padding-left: 8px;
+img {
+    /* width: 20%;
+    float: left;
+    margin-right: 20px; */
 }
 
-.post {
-    color: #f00;
-    border: 3px dashed sienna;
+/* Any class examples, this code is not the most organized */
+.initial-example {
+    display: none;
 }
 
-.post__title {
-    text-decoration: underline;
+.first {
+    background: pink;
 }
 
-.post__text {
-    color: purple;
+.second {
+    background: salmon;
+    flex-grow:;
 }
 
-.post__disclaimer {
-    color: lightslategrey;
-    font-size: 12px;
-    font-style: italic;
+.third {
+    background: rosybrown;
 }
 
-.final__disclaimer {
-    color: palegreen;
+.flex-demo {
+    padding: 30px;
+    height: 80vh;
+    border: 1px orangered dashed;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+    .box {
+        width: 20%;
+        height: 20%;
+        border: 1px solid red;
+    }
+}
+
+.grid-demo {
+    border: 1px orangered dashed;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+/* Any actual design patterns, this stuff below is quality code */
+.c-media {
+    display: flex;
+    border: 1px solid black;
+    justify-content: flex-start;
+    padding: 30px;
+    align-items: center;
+}
+
+.c-media__picture {
+    width: 40%;
+    margin-right: 20px;
+}
+
+.c-media--right-aligned {
+    flex-direction: row-reverse;
+
+    .c-media__picture {
+        margin-right: 0;
+        margin-left: 20px;
+    }
 }
